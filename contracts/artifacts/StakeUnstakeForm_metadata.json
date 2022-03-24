@@ -1,0 +1,233 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract RewardToken",
+						"name": "_rewardToken",
+						"type": "address"
+					},
+					{
+						"internalType": "contract RaghavendraToken",
+						"name": "_raghavendraToken",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "hasStaked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isStaking",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "issueTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "raghavendraToken",
+				"outputs": [
+					{
+						"internalType": "contract RaghavendraToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rewardToken",
+				"outputs": [
+					{
+						"internalType": "contract RewardToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "stakeTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "stakers",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "stakingBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "unstakeTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StakeUnstake.sol": "StakeUnstakeForm"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Raghavendra.sol": {
+			"keccak256": "0x2bc683b09e4baeffa9af0256d3b87eed07e0f21c24238937acbfa38a295b18c3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d1c83bd57b75339984f28986ae7ba5e7c67078aa5920c605e6540b08209ad456",
+				"dweb:/ipfs/QmRTJUZjF6xSiAnWZeXEUmKakuUyFoNADUQ5BwdUXcMe1J"
+			]
+		},
+		"contracts/RewardToken.sol": {
+			"keccak256": "0xde9890f15dc2e72167fe26e408bf6956ef9439f992934d0c24676f74409eea91",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://089431251a9714ead8ff81c2eb26a988b575c6b0ee57b5c31b3b0f4ae7c453b4",
+				"dweb:/ipfs/QmdB9UmXDxGiApFxM7vhTaspY2LSkpj1hf2HgCKGZvzVXm"
+			]
+		},
+		"contracts/StakeUnstake.sol": {
+			"keccak256": "0x420a065967cb7414769fc422dafbc501e2d1e11e883b1fc9816673379ec87aa9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://29276cb79f2f98aa46b04b46dfb0cd0cdc3bc6894a1f18e626719bc95610d703",
+				"dweb:/ipfs/QmaqDdGHboMWW8BiM8LSummfPQ12sciBsiTtrTejekpSid"
+			]
+		}
+	},
+	"version": 1
+}
